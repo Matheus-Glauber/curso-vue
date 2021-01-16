@@ -1,24 +1,26 @@
 # project-school
 
-## Project setup
+Projeto para estudo do VueJS e VueCLI, tendo como base uma aplicação escolar.
+
+## Assim que baixar o projeto rode o comando:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Para compilar e executar o projeto em desenvolvimento:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar e reduzir para produção:
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Executar o Lint (para análise de erros):
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Configurações Customizavéis:
+Veja [Referência Para Configurações](https://cli.vuejs.org/config/).
