@@ -15,7 +15,7 @@
           <td>{{index+1}}</td>
           <!--td>{{aluno.id}}</td>-->
           <td>{{aluno.nome}}</td>
-          <td><button class="btn" @click="remover()">Remover</button></td>
+          <td><button class="btn" @click="removerAluno(aluno)">Remover</button></td>
         </tr>
       </tbody>
     </table>
@@ -47,6 +47,11 @@ export default {
         console.log(aluno);
       });
       this.nome = ''
+    },
+    removerAluno(aluno) {
+      let indice = this.alunos.indexOf(aluno);
+      console.log('Aluno removido: ' + aluno.nome)
+      this.alunos.splice(indice, 1);
     }
   },
 }
